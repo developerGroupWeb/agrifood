@@ -44,26 +44,30 @@
 						<h3>Contactez-nous pour toutes demandes!</h3>
 					</div>
 				</div>
-
+                <div class="alert alert-info" style="display: none"></div>
 				<div class="col-md-5">
 					<div class="row">
 						<div class="">
-				          <form class="row">
+				          <form  method='post' action="treatment.php"  id="submit" class="row">
 				            <div class="form-group col-12">
-				              <input type="name" name="" id="name" placeholder="Votre nom et prenom..." class="form-control">
+                                <input type="name" name="name" id="name" placeholder="Votre nom et prenom..." class="form-control">
+                                <span class="error-name" style="display: none; color: red; font-style: italic"></span>
 				            </div>
 				            <div class="form-group col-12">
-				              <input type="text" name="" id="number" placeholder="Votre numero de telephone..." class="form-control">
+                                <input type="text" name="phone" id="phone" placeholder="Votre numero de telephone..." class="form-control">
+                                <span class="error-phone" style="display: none; color:  red; font-style: italic"></span>
 				            </div>
 				            <div class="form-group col-12">
-				              <input type="email" name="" id="email" placeholder="Votre email..." class="form-control">
+                                <input type="email" name="email" id="email" placeholder="Votre email..." class="form-control">
+                                <span class="error-email" style="display: none; color:  red; font-style: italic"></span>
 				            </div>
 				            <div class="form-group col-12">
-				              <textarea placeholder="Laissez un message..." rows="4" class="form-control"></textarea>
+                                <textarea name="message" id="message" placeholder="Laissez un message..." rows="4"  class="form-control"></textarea>
+                                <span class="error-message" style="display: none; color:  red; font-style: italic"></span>
 				            </div>
 
 				            <div class="col-12 mt-4 mb-5">
-				              <input type="submit" name="" value="Envoyer" id="sendNewsletters" class="btn btn-success w-100">
+				              <input type="submit" value="Envoyer" id="sendNewsletters" class="btn btn-success w-100">
 				            </div>
 				          </form>
 				        </div>

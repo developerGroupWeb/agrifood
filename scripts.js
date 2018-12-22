@@ -140,6 +140,7 @@ $(function () {
 					if(data.message){
 
 						$('.alert').html(data.message).show();
+						$('#name').add('#phone, #message, #email').val('');
 					}
 				}
 			});
