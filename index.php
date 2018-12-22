@@ -17,16 +17,20 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100 img-fluid" src="images/un-champ-de-tomates.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/cover-r4x3w1000-57e168b2342fe-un-fermier-bio-recolte-ses-tomates-a-perenchies-nord-de_0.jpg" alt="Second slide">
+                <img class="d-block w-100" src="images/avec-attention-il-contrc3b4le-ses-jeunes-plaants-de-tomates.jpg" alt="Third slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="images/avec-attention-il-contrc3b4le-ses-jeunes-plaants-de-tomates.jpg" alt="Third slide">
+                <img class="d-block w-100" src="images/ob_8d1f07_sauce-tomate-maison.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/HTB1JYHCHpXXXXctXXXXq6xXFXXXd.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -99,7 +103,57 @@
         </div>
 
         <div class="row mt-4 mb-3">
-          <div class="col-sm-4 offset-sm-4"><a href="" class="btn btn-lg btn-success w-100">Voir ici >></a></div>
+          <div class="col-sm-4 offset-sm-4"><a href="" class="btn btn-lg btn-success w-100" data-toggle="modal" data-target="#Modalold">Voir ici >></a></div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="Modalold" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Quelques images de notre exploitation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+                <div class="modal-body">
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/IMG-20181212-WA0059.jpg" alt="First slide" style="max-height: 400px;">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/un-homme-porte-une-corbeille-remplie-de-tomates-recoltees-dans-un-champ-de-la.jpg" alt="Second slide" style="max-height: 400px;">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMG-20181212-WA0039.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMG-20181212-WA0044.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMG-20181212-WA0043.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMG-20181212-WA0038.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMG-20181212-WA0057.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -111,23 +165,24 @@
         </div>
 
         <div class="">
-          <div class="card-columns">
+          <div class="card-deck">
             <div class="card">
-              <img src="images/IMG-20181212-WA0040.jpg" class=" w-100">
+              <img src="images/IMG-20181212-WA0040.jpg" alt="produit un" class=" w-100">
             </div>
             <div class="card">
-              <img src="images/IMG-20181212-WA0041.jpg" class=" w-100">
+              <img src="images/IMG-20181212-WA0041.jpg" alt="produit deux" class=" w-100">
             </div>
             <div class="card">
-              <img src="images/455852.jpeg" class=" w-100">
+              <img src="images/455852.jpeg" alt="produit trois" class=" w-100">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-newsletters bg-danger py-5">
-      <div class="col-lg-8 offset-lg-2">
+    <section class="section-newsletters">
+      <div style="background-color: rgba(0,0,0,0.8);">
+      <div class="col-lg-8 offset-lg-2 py-5">
         <div class="row mb-4">
           <h2 class="mx-auto text-center text-white font-weight-bold">Besoin d'un produit ou d'un partenaire ? Contactez-nous!</h2>
         </div>
@@ -143,7 +198,7 @@
               <input type="email" name="" id="email" placeholder="Votre email..." class="form-control">
             </div>
             <div class="form-group col-sm-12 offset-sm-0 col-10 offset-1">
-              <textarea placeholder="Laissez un message..." rows="4" class="w-100" class="form-control"></textarea>
+              <textarea placeholder="Laissez un message..." rows="4" class="form-control"></textarea>
             </div>
 
             <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-10 offset-1 mt-4">
@@ -151,6 +206,7 @@
             </div>
           </form>
         </div>
+      </div>
       </div>
     </section>
 

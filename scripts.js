@@ -1,7 +1,8 @@
 $(function () {
-	/**
-		$('#navbar-nav .nav-item').click( function () {
-		$(this).addClass('activ').siblings().removeClass('activ');
-	});**/
+	
+		$('#navbar-nav .nav-item').mouseover( function () {
 
-})
+			$(this).addClass('activ').siblings().removeClass('activ');
+	});
+
+});
