@@ -1,0 +1,191 @@
+body{
+	background: ;
+}
+
+.nav1 .nav-item .nav-link{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #fff;
+}
+
+.navbar-brand{
+	font-size: 28px;
+}
+
+.nav2 .nav-item{
+	border: 2px solid #ff6666;
+	margin-left: 5px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.activ{
+	background-color: #ff6666;
+}
+
+.nav2 .nav-item:hover{
+	background-color: #ff6666;
+}
+
+@media(max-width: 992px) {
+	.nav2 .nav-item{
+	background: #fff;
+	margin-left: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	}
+}
+
+.carousel img{
+	min-height: 500px;
+	max-height: 500px;
+}
+
+.section2{
+	background-image: url(images/istockphoto-618328002-2048x2048.jpg);
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color: #fff;
+}
+
+.section2 ul li{
+	margin-bottom: 10px;
+}
+
+.section2 ul li span{
+	font-size: 18px;
+	text-align: center;
+}
+
+.section4 .card img{
+	height: 450px;
+}
+
+
+@media(max-width: 768px) {
+	.carousel img{
+	min-height: 250px;
+	max-height: 250px;
+	}
+
+	.navbar-brand{
+	font-size: 15px;
+	}
+
+	.navbar-brand img{
+	width: 40px;
+	height: 40px;
+	}
+
+	.navbar-brand-text{
+		font-size: 14px;
+		margin-left: 20px;
+	}
+
+	.nav2 button{
+		padding: 5px;
+	}
+
+	.section2 ul li span{
+	font-size: 15px;
+	text-align: center;
+	}
+}
+
+/**------------------------our services-------------------------------**/
+
+.services-home{
+	background-image: url(images/);
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding-top: px;
+}
+
+.section-overlay .box1{
+	background-image: url(images/index45.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+}
+
+.section-overlay .box2{
+	background-image: url(images/index45.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+}
+
+.section-overlay .box3{
+	background-image: url(images/index45.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+}
+
+.section-overlay .box1 h2,
+.section-overlay .box2 h2,
+.section-overlay .box3 h2{
+	margin-top: 120px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.services-home p{
+	font-size: 20px;
+}
+
+@media(max-width: 992px) {
+	.section-overlay .box1 h2,
+	.section-overlay .box2 h2,
+	.section-overlay .box3 h2{
+		margin-top: 70px;
+		color: #fff;
+		font-weight: bold;
+	}
+}
+
+/**---------------------------------about us--------------------------------------*/
+
+#adresseBox{
+	font-size: 20px;
+}
+
+@media(max-width: 768px)  {
+	.section-aboutus{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.section-aboutus h1,
+	.section-our-team h1,
+	.section2 h1,
+	.section3 h1,
+	.section4 h1,
+	.services-home h1{
+		font-size: 28px;
+	}
+	#adresseBox{
+		font-size: 16px;
+	}
+}
+
+
+/**---------------------------------our-team---------------------------**/
+.section-our-team  h3{
+		font-size: 24px;
+	}
+
+@media(min-width: 991.99px) and (max-width: 1200px) {
+	.section-our-team  h3{
+		font-size: 19px;
+	}
+}
+
+@media(min-width: 767.99px) and (max-width: 992px) {
+	.section-our-team  h3{
+		font-size: 16px;
+	}
+}
