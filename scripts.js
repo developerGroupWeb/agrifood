@@ -1,4 +1,5 @@
 $(function () {
+<<<<<<< HEAD
 
 	$(document).on('mouseover', '#navbar-nav .nav-item', function (e) {
 		$(this).addClass('active').siblings().removeClass('active');
@@ -37,6 +38,12 @@ $(function () {
 
 			return false;
 		}
+=======
+	
+		$('#navbar-nav .nav-item').mouseover( function () {
+
+			$(this).addClass('activ').siblings().removeClass('activ');
+>>>>>>> b295b3c8b3d338b0ad040efc5ed657e248573094
 	});
 
 });

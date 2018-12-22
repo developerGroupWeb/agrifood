@@ -30,9 +30,14 @@ body{
 @media(max-width: 992px) {
 	.nav2 .nav-item{
 	background: #fff;
+	border: none;
 	margin-left: 0px;
 	border-top-left-radius: 0px;
 	border-bottom-right-radius: 0px;
+	}
+
+	.nav2 .nav-item:hover{
+	background-color: #f1f1f1;
 	}
 }
 
@@ -50,6 +55,14 @@ body{
   	color: #fff;
 }
 
+.section-newsletters{
+	background-image: url(images/Tomato_1280x480.png);
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
 .section2 ul li{
 	margin-bottom: 10px;
 }
@@ -60,7 +73,7 @@ body{
 }
 
 .section4 .card img{
-	height: 450px;
+	
 }
 
 
@@ -187,5 +200,15 @@ body{
 @media(min-width: 767.99px) and (max-width: 992px) {
 	.section-our-team  h3{
 		font-size: 16px;
+	}
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+	.section-our-team  h3{
+		font-size: 14px;
+	}
+
+	.section-our-team  h6{
+		font-size: 10px;
 	}
 }

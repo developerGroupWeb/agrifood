@@ -59,7 +59,7 @@
 				              <input type="email" name="" id="email" placeholder="Votre email..." class="form-control">
 				            </div>
 				            <div class="form-group col-12">
-				              <textarea placeholder="Laissez un message..." rows="4" class="w-100" class="form-control"></textarea>
+				              <textarea placeholder="Laissez un message..." rows="4" class="form-control"></textarea>
 				            </div>
 
 				            <div class="col-12 mt-4 mb-5">
