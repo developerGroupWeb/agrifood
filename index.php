@@ -132,22 +132,25 @@
           <h2 class="mx-auto text-center text-white font-weight-bold">Besoin d'un produit ou d'un partenaire ? Contactez-nous!</h2>
         </div>
         <div class="">
-          <form class="row">
+          <form method='post' action="treatment.php"  id="submit" class="row">
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="name" name="" id="name" placeholder="Votre nom et prenom..." class="form-control">
+              <input type="name" name="name" id="name" placeholder="Votre nom et prenom..." class="form-control">
+                <span class="error-name" style="display: none; color: white; font-style: italic"></span>
             </div>
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="text" name="" id="number" placeholder="Votre numero de telephone..." class="form-control">
+              <input type="text" name="phone" id="phone" placeholder="Votre numero de telephone..." class="form-control">
+                <span class="error-phone" style="display: none; color: white; font-style: italic"></span>
             </div>
             <div class="form-group col-sm-4 col-10 offset-1 offset-sm-0">
-              <input type="email" name="" id="email" placeholder="Votre email..." class="form-control">
+              <input type="email" name="email" id="email" placeholder="Votre email..." class="form-control">
+                <span class="error-email" style="display: none; color: white; font-style: italic"></span>
             </div>
             <div class="form-group col-sm-12 offset-sm-0 col-10 offset-1">
-              <textarea placeholder="Laissez un message..." rows="4" class="w-100" class="form-control"></textarea>
+              <textarea name="message" id="message" placeholder="Laissez un message..." rows="4"  class=" w-100 form-control error-message"></textarea>
             </div>
 
             <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-10 offset-1 mt-4">
-              <input type="submit" name="" value="Inscription gratuite" id="sendNewsletters" class="btn btn-success w-100">
+              <input type="submit" value="Inscription gratuite" id="sendNewsletters" class="btn btn-success w-100">
             </div>
           </form>
         </div>

@@ -38,7 +38,7 @@
           
         <div class="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto" id="navbar-nav">
-            <li class="nav-item activ">
+            <li class="nav-item active">
               <a class="nav-link" href="index.php">Accueil</a>
             </li>
             <li class="nav-item">
